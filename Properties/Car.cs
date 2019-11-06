@@ -47,7 +47,7 @@ namespace Properties
                         }
                         else
                         {
-                            LicenseNumber = value;
+                            licenseNumber = value;
                             correctLicenseNumber = true;
                         }
                     }
