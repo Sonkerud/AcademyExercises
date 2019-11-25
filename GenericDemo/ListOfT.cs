@@ -12,9 +12,6 @@ namespace GenericDemo
         T[] collection;
         int currentIndex = 0;
 
-        public T this[int injdex] { get; set; }
-
-
         public T this[int index]
         {
             get 

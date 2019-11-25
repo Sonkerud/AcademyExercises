@@ -38,7 +38,6 @@ namespace LINQ24
             {
                 Console.WriteLine($"Månad: {months[i]} Antal: {list.Where(x => x.NameDay.ToString().StartsWith($"2015-{months[i]}")).Count()}");
             }
-
         }
 
 
