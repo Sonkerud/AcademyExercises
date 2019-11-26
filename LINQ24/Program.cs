@@ -22,21 +22,23 @@ namespace LINQ24
             //    Console.WriteLine($"{ person.Name} {person.NameDay.ToString().Replace("00:00:00","")}");
             //}
 
-           var x = File.ReadAllLines(path).Distinct().Select(x => x.Split(";")).Select(x => new Person
-            {
-                Name = x[0].ToString(),
-                NameDay = Convert.ToDateTime(x[1])
-            
-           }).ToList();
+            //var x = File.ReadAllLines(path).Distinct().Select(x => x.Split(";")).Select(x => new Person
+            // {
+            //     Name = x[0].ToString(),
+            //     NameDay = Convert.ToDateTime(x[1])
 
-            
+            //}).ToList();
 
-            
 
-            listOfNames.CountOfPeopleForEachLetter();
-            listOfNames.NameDayEachMonth();
+
+
+
+            //listOfNames.CountOfPeopleForEachLetter();
+            //listOfNames.NameDayEachMonth();
+            listOfNames.NameDayEachQuarter2();
             listOfNames.NameDayEachQuarter();
-            listOfNames.DateWithMostNameDays();
+
+            //listOfNames.DateWithMostNameDays();
         }
     }
 }
