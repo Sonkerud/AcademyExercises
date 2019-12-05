@@ -1,0 +1,64 @@
+.SuperPapa-name {
+    margin-left:15px;
+    font-size:10px
+}
+
+.SuperPapa-add {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: -webkit-fill-available;
+}
+
+.Papa{
+    background-color:#aaa;
+    margin:10px;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+.Papa-name{
+    margin:10px 0;
+    font-size:20px;
+}
+
+.Papa-name-lightup{
+    color:#75ff75;
+}
+
+.Papa-addchild {
+    margin-top:5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.Child{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+
+    border-radius: 10px;
+    padding:10px;
+    background-color:#eee;
+    margin:5px 0;
+}
+
+.Child-name{
+    flex:8;
+    line-height: 38px;
+    margin-left:10px;
+}
+
+.Child-name-lightup{
+    color:#32c832;
+}
+
+.Child-button{
+    display: block;
+    flex:1;
+    margin:2px;
+}
+
+.Child-button-remove{
+    background-color:#ffd0d0
+}

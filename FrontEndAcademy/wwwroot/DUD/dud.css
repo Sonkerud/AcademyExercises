@@ -1,0 +1,51 @@
+﻿
+.dud-state {
+    display: inline-block;
+    width: 50px;
+}
+
+.dud-testname {
+    display: inline-block;
+    width:250px;
+}
+
+.dud-expected {
+    display: inline-block;
+    width:300px;
+}
+
+.dud-actual {
+    display: inline-block;
+    width:300px;
+}
+
+
+.dud-summary {
+    display: inline-block;
+}
+
+.dud-groupname {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dud-group {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #eee;
+    border-radius: 20px;
+    /*cursor: pointer;*/
+}
+
+.dud-row {
+    margin: 5px 50px;
+    font-size:12px;
+}
+
+body {
+    font-size: 20px;
+    font-family:Arial;
+}
+
+
